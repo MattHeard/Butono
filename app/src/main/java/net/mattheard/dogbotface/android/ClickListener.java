@@ -4,7 +4,8 @@ import android.view.View;
 
 import net.mattheard.dogbotface.core.Torso;
 
-public class ClickListener implements View.OnClickListener {
+class ClickListener implements View.OnClickListener {
+    private static final String MESSAGE = "0/DANCU//";
     private final Torso torso;
 
     ClickListener(final Torso torso) {
@@ -17,6 +18,6 @@ public class ClickListener implements View.OnClickListener {
     }
 
     private String getMessage() {
-        return "0/DANCU//";
+        return MESSAGE;
     }
 }
