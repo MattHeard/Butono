@@ -1,3 +1,3 @@
-# Saluton Tero
+# Butono
 
-Prints 'Saluton, Tero' to the screen
+Show a snackbar when the button is pressed
